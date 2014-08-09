@@ -1,0 +1,26 @@
+{
+    "name": "kijin/apc2memcached",
+    "description": "An emulation layer for migrating from APC user cache to Memcached",
+    "type": "library",
+    "keywords": ["apc", "memcached"],
+    "homepage": "https://github.com/kijin/apc2memcached",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kijin Sung",
+            "email": "kijin@kijinsung.com",
+            "homepage": "http://www.kijinsung.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0",
+        "ext-memcached": ">=2.0.0"
+    },
+    "conflict": {
+        "ext-apc": "*"
+    },
+    "autoload": {
+        "files": ["apc2memcached.php"]
+    }
+}
